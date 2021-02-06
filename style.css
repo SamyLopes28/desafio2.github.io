@@ -171,21 +171,6 @@ section {
     padding: 40px 40px 80px 40px;
 }
 
-.psolucao {
-    margin: 0px 50px;
-}
-
-.centralizacao_bug {
-    position: absolute;
-}
-
-.center {
-    position: relative;
-    left: 465px;
-    bottom: -755px;
-    margin: 60px 0px;
-}
-
 .img_solucao {
     width: 350px;
     height: 250px;
@@ -239,4 +224,62 @@ footer {
     width:300px;
     text-align: right;
     padding: 30px 70px 30px 0px;
+}
+
+@media all and (max-width: 768px) {
+
+    div {
+        margin: 0;
+    }
+
+    #menu {
+        visibility: hidden;
+    }
+
+    .logo_header {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        transform: translateX(-13%);
+    }
+
+    .coluna, .dois, .tres, .quatro {
+        display: block;
+        text-align: center;
+        width: 80%;
+        padding: 10px;
+        float: none;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    #sobre_mim {
+        display: block;
+        justify-content: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #img_home {
+        height: 60%;
+    }
+
+    #titulo_home {
+        padding-top: 25%;
+        font-size: 50px;
+    
+    }
+    
+    #subtitulo_home {
+        padding: 0 20%;
+        font-size: 20px;
+    
+    }
+
+    #video {
+        margin-top: 0px;
+    }   
 }
